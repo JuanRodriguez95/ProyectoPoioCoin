@@ -26,17 +26,17 @@
     />
 
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
-
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
-
+    <div id="theme">
+      <link href="./assets/css/style-light.css" rel="stylesheet" type="text/css" />
+    </div>
   </head>
   <body>
-    <div class="container">
+    <div class="container bg9 text10">
       <!--Header-->
       <header class="row">
-        <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-white">
+        <nav class="navbar fixed-top navbar-expand-xl navbar-light bg9">
           <div class="container">
-            <img src="./assets/img/logo-fondo.png" width="110" height="110" />
+            <a href="./index.html"><img src="./assets/img/logo-fondo.png" width="110" height="110" /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -51,13 +51,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a id="menu-home" class="nav-link active text6" href="#"
-                    >Inicio</a
-                  >
+                  <a id="menu-home" class="nav-link text-link-7" href="#">Inicio</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle text6"
+                    class="nav-link dropdown-toggle text-link-7"
                     href="#"
                     id="menu-products"
                     role="button"
@@ -68,7 +66,8 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="menu-products">
                     <li>
-                      <a id="menu-savigs-plan" class="dropdown-item text-link-6" href="productos.html#planes">Planes de ahorro
+                      <a id="menu-savigs-plan" class="dropdown-item text-link-6" href="productos.html#planes"
+                        >Planes de ahorro
                       </a>
                     </li>
                     <li>
@@ -81,7 +80,8 @@
                       <a id="menu-deposit" class="dropdown-item text-link-6" href="productos.html#depositar">Como depositar</a>
                     </li>
                     <li>
-                      <a id="menu-presence" class="dropdown-item text-link-6" href="productos.html#presencia">Presencia Internacional
+                      <a id="menu-presence" class="dropdown-item text-link-6" href="productos.html#presencia"
+                        >Presencia Internacional
                       </a>
                     </li>
                     <li>
@@ -94,17 +94,16 @@
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item text-link-6" href="productos.html#empresas">PoioCoin para empresas
-                      </a>
+                      <a class="dropdown-item text-link-6" href="productos.html#empresas">PoioCoin para empresas </a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a id="menu-shop" class="nav-link text6" href="#">Compras</a>
+                  <a id="menu-shop" class="nav-link text-link-7" href="./Compras.html">Compras</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle text-link-6"
+                    class="nav-link dropdown-toggle text-link-7"
                     href="#"
                     id="menu-about"
                     role="button"
@@ -115,85 +114,39 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="nosotrosDropdown">
                     <li>
-                      <a 
-                        id="menu-about-us"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#quienes"
-                        >¿Quienes somos?</a
-                      >
+                      <a id="menu-about-us" class="dropdown-item text-link-6" href="nosotros.html#quienes">¿Quienes somos?</a>
                     </li>
-                    <li>
-                      <a
-                        id="menu-about-history"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#historia"
-                        >Historia de nuestro PoioCoin
-                      </a>
-                    </li>
+
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a
-                        id="menu-about-politicies"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#politicas"
-                        >Políticas de privacidad
-                        <i class="bx bxs-lock-open-alt"></i
+                      <a id="menu-about-politicies" class="dropdown-item text-link-6" href="nosotros.html#politicas"
+                        >Políticas de privacidad <i class="bx bxs-lock-open-alt"></i
                       ></a>
                     </li>
                     <li>
-                      <a
-                        id="menu-about-terms"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#terminos"
+                      <a id="menu-about-terms" class="dropdown-item text-link-6" href="nosotros.html#terminos"
                         >Términos de uso <i class="bx bxs-pen"></i
                       ></a>
                     </li>
-                    <li>
-                      <a
-                        id="menu-about-documentation"
-                        class="dropdown-item text-link-6"
-                        href="documentacion.html"
-                        >Docomentación <i class="bx bxs-book-open"></i
-                      ></a>
-                    </li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a
-                        id="menu-about-contact"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#contacto"
+                      <a id="menu-about-contact" class="dropdown-item text-link-6" href="nosotros.html#contacto"
                         >Contacto <i class="bx bxs-phone-call"></i
                       ></a>
                     </li>
                     <li>
-                      <a
-                        id="menu-about-suport"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#soporte"
-                        >Soporte <i class="bx bx-wrench"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        id="menu-about-team"
-                        class="dropdown-item text-link-6"
-                        href="nosotros.html#equipo"
+                      <a id="menu-about-team" class="dropdown-item text-link-6" href="nosotros.html#equipo"
                         >Nuestro equipo de trabajo</a
                       >
                     </li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a 
-                      id="menu-about-news"
-                      class="dropdown-item text-link-6" href="noticias.html"
+                      <a id="menu-about-news" class="dropdown-item text-link-6" href="noticias.html"
                         >Noticias <i class="bx bxs-book-content"></i
                       ></a>
                     </li>
                     <li>
-                      <a
-                        id="menu-about-testimonials"
-                        class="dropdown-item text-link-6"
-                        href="noticias.html#testimonio"
+                      <a id="menu-about-testimonials" class="dropdown-item text-link-6" href="noticias.html#testimonio"
                         >Testimonios <i class="bx bxs-user-voice"></i
                       ></a>
                     </li>
@@ -201,7 +154,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle text-link-6"
+                    class="nav-link dropdown-toggle text-link-7"
                     href="#"
                     id="menu-user"
                     role="button"
@@ -212,12 +165,19 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="menu-user">
                     <li>
-                      <a id="menu-user-singin" class="dropdown-item text-link-6" href="ingresar.html">Ingresar <i class="bx bxs-key"></i></a>
+                      <a id="menu-user-singin" class="dropdown-item text-link-6" href="ingresar.html"
+                        >Ingresar <i class="bx bxs-key"></i
+                      ></a>
                     </li>
                     <li>
-                      <a id="menu-user-singup" class="dropdown-item text-link-6" href="registro.html">Registrarme <i class="bx bxs-pen"></i></a>
+                      <a id="menu-user-singup" class="dropdown-item text-link-6" href="registro.html"
+                        >Registrarme <i class="bx bxs-pen"></i
+                      ></a>
                     </li>
-                     <a id="menu-user-training" class="dropdown-item text-link-6" href="capacitacion.html">Capacitacion <i class='bx bx-glasses-alt' ></i></a>
+                    <li>
+                      <a id="menu-user-training" class="dropdown-item text-link-6" href="capacitacion.html"
+                        >Capacitacion <i class="bx bx-glasses-alt"></i
+                      ></a>
                     </li>
                   </ul>
                 </li>
@@ -235,39 +195,21 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="menu-theme">
                     <li>
-                      <a id="theme-dark" class="dropdown-item" href="#"
-                        >Oscuro <i class="bx bxs-moon"></i
-                      ></a>
+                      <a id="themeDark" class="dropdown-item" href="#">Oscuro <i class="bx bxs-moon"></i></a>
                     </li>
                     <li>
-                      <a id="theme-light" class="dropdown-item" href="#"
-                        >Iluminado <i class="bx bxs-sun"></i
-                      ></a>
+                      <a id="themeLight" class="dropdown-item" href="#">Iluminado <i class="bx bxs-sun"></i></a>
                     </li>
                   </ul>
                 </li>
               </ul>
               <form class="d-flex">
-                <input
-                  class="form-control ms-3 me-1 text6"
-                  type="search"
-                  placeholder="Search"
-                />
-                <button
-                  id="btn-buscar"
-                  class="btn btn-outline-success"
-                  type="submit"
-                >
-                  Buscar
-                </button>
+                <input class="form-control ms-3 me-1 text6" type="search" placeholder="Search" />
+                <button id="btn-buscar" class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
               <div class="social-links mt-sm-3 mt-lg-0">
                 <a id="btn-languaje" href="#" class="twitter"
-                  ><img
-                    style="margin-top: -11.6px"
-                    width="35"
-                    src="./assets/img/espain.png"
-                    alt=""
+                  ><img style="margin-top: -11.6px" width="35" src="./assets/img/espain.png" alt=""
                 /></a>
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -279,33 +221,21 @@
 
       <div class="row mt-5 pt-5">
         <div class="col-sm-12 col-lg-6 p-5 my-5">
-          <p id="title-section-1" class="h1 font3 text-center text6">
-            Bienvenido
-          </p>
+          <p id="title-section-1" class="h1 font3 text-center text6">Bienvenido</p>
           <br />
           <p id="section-1" style="text-align: justify">
             Le invitamos a conocer <strong>PoioCoin</strong> una nueva y segura
-            <strong
-              >CryptoMoneda que ha acogió mucha fuerza y estabilidad</strong
-            >
+            <strong>CryptoMoneda que ha acogió mucha fuerza y estabilidad</strong>
             en el mercado virtual. <br /><br />
-            Le invitamos a que haga un recorrido en nuestra plataforma y por que
-            no a <strong>registrarse</strong> para que vea las funcionalidades
-            que le podemos brindar como usuario, le recomendamos la siguiente
-            ruta.
+            Le invitamos a que haga un recorrido en nuestra plataforma y por que no a <strong>registrarse</strong> para que vea
+            las funcionalidades que le podemos brindar como usuario, le recomendamos la siguiente ruta.
           </p>
           <br /><br />
           <center>
             <div class="btn-group">
-              <a id="btn-group-singup" href="#" class="btn btn-8 text-white"
-                >Registrarme</a
-              >
-              <a id="btn-group-products" href="#" class="btn btn-8 text-white"
-                >Ver productos</a
-              >
-              <a id="btn-group-buy" href="#" class="btn btn-8 text-white"
-                >Comprar PoioCoins</a
-              >
+              <a id="btn-group-singup" href="#" class="btn btn-8 text-white">Registrarme</a>
+              <a id="btn-group-products" href="#" class="btn btn-8 text-white">Ver productos</a>
+              <a id="btn-group-buy" href="#" class="btn btn-8 text-white">Comprar PoioCoins</a>
             </div>
           </center>
         </div>
@@ -333,65 +263,43 @@
             <tbody id="characters"></tbody>
           </table>
         </div>
-        </div>
-        <div class="row">
+      </div>
+      <div class="row">
         <div class="col-sm-12 col-lg-6 p-5">
-          <p id="title-section-2" class="h2 font3 text-center text6 mt-3">
-            ¿Que es PoioCoin?
-          </p>
+          <p id="title-section-2" class="h2 font3 text-center text6 mt-3">¿Que es PoioCoin?</p>
           <br />
           <p id="section-2" style="text-align: justify">
             <strong>PoioCoin</strong> una nueva y segura
-            <strong
-              >CryptoMoneda que ha acogió mucha fuerza y estabilidad</strong
-            >
+            <strong>CryptoMoneda que ha acogió mucha fuerza y estabilidad</strong>
             en el mercado virtual. <br /><br />
-            Le invitamos a que haga un recorrido en nuestra plataforma y por que
-            no a <strong>registrarse</strong> para que vea las funcionalidades
-            que le podemos brindar como usuario, le recomendamos la siguiente
-            ruta.
+            Le invitamos a que haga un recorrido en nuestra plataforma y por que no a <strong>registrarse</strong> para que vea
+            las funcionalidades que le podemos brindar como usuario, le recomendamos la siguiente ruta.
           </p>
           <img class="centrar" src="./assets/img/img1.png" width="60%" />
         </div>
         <div class="col-sm-12 col-lg-6 p-5">
-          <p id="title-section-3" class="h2 font3 text-center text6 mt-3">
-            Integración con nuestra App
-          </p>
+          <p id="title-section-3" class="h2 font3 text-center text6 mt-3">Integración con nuestra App</p>
           <br />
           <p id="section-3" style="text-align: justify">
-            <strong>PoioCoin</strong> cuenta con su propia App para dispositivos
-            Android y iOS donde podrás hacer seguimiento a las fluctuaciones del
-            mercado y demas funcionalidades que ofrece nuestra plataforma
-            Web.<br /><br />
+            <strong>PoioCoin</strong> cuenta con su propia App para dispositivos Android y iOS donde podrás hacer seguimiento a
+            las fluctuaciones del mercado y demas funcionalidades que ofrece nuestra plataforma Web.<br /><br />
             Descargala y aprovecha todas las herramientas que ofrecemos.
           </p>
           <br /><br />
           <center>
             <div class="btn-group my-2">
-              <a href="#" class="btn btn-primary text-white"
-                >Windows 32 Bits <i class="bx bxs-download"></i
-              ></a>
-              <a href="#" class="btn btn-primary text-white"
-                >Windows 64 Bits <i class="bx bxs-download"></i
-              ></a>
+              <a href="#" class="btn btn-primary text-white">Windows 32 Bits <i class="bx bxs-download"></i></a>
+              <a href="#" class="btn btn-primary text-white">Windows 64 Bits <i class="bx bxs-download"></i></a>
             </div>
             <br />
             <div class="btn-group my-2">
-              <a href="#" class="btn btn-6 text-white"
-                >Linux 32 Bits <i class="bx bxs-download"></i
-              ></a>
-              <a href="#" class="btn btn-6 text-white"
-                >Linux 64 Bits <i class="bx bxs-download"></i
-              ></a>
+              <a href="#" class="btn btn-6 text-white">Linux 32 Bits <i class="bx bxs-download"></i></a>
+              <a href="#" class="btn btn-6 text-white">Linux 64 Bits <i class="bx bxs-download"></i></a>
             </div>
             <br />
             <div class="btn-group my-2">
-              <a href="#" class="btn btn-7 text-white"
-                >Mac OS <i class="bx bxs-download"></i
-              ></a>
-              <a href="#" class="btn btn-7 text-white"
-                >Mac iOS <i class="bx bxs-download"></i
-              ></a>
+              <a href="#" class="btn btn-7 text-white">Mac OS <i class="bx bxs-download"></i></a>
+              <a href="#" class="btn btn-7 text-white">Mac iOS <i class="bx bxs-download"></i></a>
             </div>
           </center>
         </div>
@@ -460,7 +368,9 @@
         </div>
 
         <div class="col-sm-12 col-lg-4 p-5">
-          <p id="subtitle-advantage-3" class="h4 font3 text-center text4 mt-2">Comisiones bajas <i class="bx bxs-downvote"></i></p>
+          <p id="subtitle-advantage-3" class="h4 font3 text-center text4 mt-2">
+            Comisiones bajas <i class="bx bxs-downvote"></i>
+          </p>
           <br />
           <p id="advantage-3" style="text-align: justify">Envía dinero a cualquier lugar prácticamente gratis.</p>
         </div>
@@ -520,25 +430,41 @@
         <div class="col-sm-12 col-md-6 col-lg-3 p-5">
           <p id="footer-title-products" class="h4 font3">Nuestros productos:</p>
           <br />
-          <a id="footer-product-1" class="btn-9" href="productos.html#planes"><i class="bx bx-chevron-right"></i> Planes de ahorro </a><br /><br />
+          <a id="footer-product-1" class="btn-9" href="productos.html#planes"
+            ><i class="bx bx-chevron-right"></i> Planes de ahorro </a
+          ><br /><br />
 
-          <a id="footer-product-2" class="btn-9" href="productos.html#tarjetas"><i class="bx bx-chevron-right"></i> Tarjetas</a><br /><br />
+          <a id="footer-product-2" class="btn-9" href="productos.html#tarjetas"><i class="bx bx-chevron-right"></i> Tarjetas</a
+          ><br /><br />
 
-          <a id="footer-product-3" class="btn-9" href="productos.html#licencias"><i class="bx bx-chevron-right"></i> Licencias</a><br /><br />
+          <a id="footer-product-3" class="btn-9" href="productos.html#licencias"><i class="bx bx-chevron-right"></i> Licencias</a
+          ><br /><br />
 
-          <a id="footer-product-4" class="btn-9" href="productos.html#depositar"><i class="bx bx-chevron-right"></i> Como depositar</a><br /><br />
+          <a id="footer-product-4" class="btn-9" href="productos.html#depositar"
+            ><i class="bx bx-chevron-right"></i> Como depositar</a
+          ><br /><br />
 
-          <a id="footer-product-5" class="btn-9" href="productos.html#presencia"><i class="bx bx-chevron-right"></i> Presencia Internacional</a><br /><br />
+          <a id="footer-product-5" class="btn-9" href="productos.html#presencia"
+            ><i class="bx bx-chevron-right"></i> Presencia Internacional</a
+          ><br /><br />
 
-          <a id="footer-product-6" class="btn-9" href="productos.html#acciones"><i class="bx bx-chevron-right"></i> Adquiere Acciones</a><br /><br />
+          <a id="footer-product-6" class="btn-9" href="productos.html#acciones"
+            ><i class="bx bx-chevron-right"></i> Adquiere Acciones</a
+          ><br /><br />
 
-          <a id="footer-product-7" class="btn-9" href="productos.html#divisas"><i class="bx bx-chevron-right"></i> Cambio de Divisas</a><br /><br />
-          <a id="footer-product-8" class="btn-9" href="productos.html#empresas"><i class="bx bx-chevron-right"></i> PoioCoin para empresas </a>
+          <a id="footer-product-7" class="btn-9" href="productos.html#divisas"
+            ><i class="bx bx-chevron-right"></i> Cambio de Divisas</a
+          ><br /><br />
+          <a id="footer-product-8" class="btn-9" href="productos.html#empresas"
+            ><i class="bx bx-chevron-right"></i> PoioCoin para empresas
+          </a>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 p-5">
           <p id="footer-title-contact" class="h4 font3">Contactanos:</p>
           <br />
-          <a class="btn-9" href="nosotros.html#contacto"><i style="font-size: 22px" class="bx bxl-gmail"></i> - poiocoin0@gmail.com </a><br /><br />
+          <a class="btn-9" href="nosotros.html#contacto"
+            ><i style="font-size: 22px" class="bx bxl-gmail"></i> - poiocoin0@gmail.com </a
+          ><br /><br />
           <a class="btn-9" href="#"><i style="font-size: 28px" class="bx bxl-whatsapp"></i> +57 257 545 415</a><br /><br />
           <p id="footer-title-social" class="text-white"><i class="bx bx-chevron-right"></i> Nuestras redes:</p>
           <br />
@@ -583,6 +509,7 @@
       </div>
     </div>
     <script src="./assets/js/api-coin.js"></script>
-    <script src="./assets/js/translate.js" type="module" ></script>
+    <script src="./assets/js/translate.js" type="module"></script>
+    <script src="./assets/js/theme.js"></script>
   </body>
 </html>
